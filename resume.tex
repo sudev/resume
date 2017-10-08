@@ -27,7 +27,7 @@
     
         
     Ambadi House   \hfill \textit{mobile:} \hspace{9mm} 		+91-8089442513 \\ 
-    Ponnani South P. O.	\hfill \textit{webpage:}\hspace{14mm}\href{http://sudev.github.io}{sudev.github.io}\\
+    Ponnani South P. O.	\hfill \textit{webpage:}\hspace{14mm}\href{http://sudev.github.io}{sudevambadi.me}\\
     Malappuram \hfill 	\textit{e-mail:} \hspace{3.6mm}\href{mailto:sudevdev@gmail.com}{sudevdev@gmail.com}     \\
     Kerala - 679586
 			
@@ -41,7 +41,7 @@
     % Research Interests
     \section{\mysidestyle Areas of\\Interest}
 
-   GNU/Linux, Big Data, Data Science, Cloud Computing \& Operating Systems.
+   Big Data, Data Science, Distributed Systems \& GNU/Linux.
 \vspace{3mm}
 
 
@@ -52,33 +52,66 @@
     \textbf{National Institute of Technology Calicut} \hfill \textit{Calicut, Kerala, India} \vspace{1mm}\\\vspace{1mm}%
     \textsl{B.Tech, Computer Science and Engineering} \hfill \textit{ July 2010 -- May 2014}\vspace{-3mm}\\\vspace{-1mm}%
     \begin{list2}
-        \item[--] Cumulative GPA: 7.28/10 
+   %     \item[--] Cumulative GPA: 7.28/10 
         \item[--] \textit{Relevant Courses}: Data Structures \& Algorithms, Design \& Analysis of Algorithms, Theory
-of Computation, Computer Networks, Discrete Computational Structures, Operating Systems, 
-Compilers, Number Theory and Cryptography, Computer Security, Natural Language Processing.
+of Computation, Computer Networks, Operating Systems, 
+Compilers, Cryptography \& Computer Security, Natural Language Processing, Data Mining.
     \end{list2}\vspace{-1.5mm}
     
  \vspace{3mm}
 
    \section{\mysidestyle Skills} 
 
- \textit{Programming}: C, Python, Shell Scripting, R, Java \\
- \textit{Distributed Computing}: Apache Spark, Hortonworks data platform \\
- \textit{Cloud Computing}: Eucalyptus	\\
- \textit{Web}: Drupal, HTML/CSS	\\
-	% \item \textit{DBMS}: MySQL
-	 \textit{Platforms}: GNU/Linux, Windows \\
-	 \textit{Tools}: GIT, VIm \\
+ \textit{Programming}: Python, Scala, Shell Scripting, R\\
+ \textit{Distributed Computing}: Apache Spark, Kafka, Zookeeper \\
+\textit{Databases}: HBase, Redshift, Hive, Cassandra \\
+\textit{Big data platforms}: Cloudera, AWS Big Data Stack \\ 
 
 
     %__________________________________________________________________________________________________________________
 
     % Projects
     \section{\mysidestyle Industry Experience}
+    \textbf{Goibibo.com } 				\hfill  Bangalore, Karnataka \\
+      \textit{Position: Senior Data Engineer } 			\hfill \textit{September 2015 -- Present}
+  
 
+Data Infrastructure				 				\hfill \textit{September 2015  -- present} \\ 
+\textit{Summary} : Design and maintain data infrastructure. \\
+      \textit{Technologies} : Apache Kafka, Spark, HBase, Hadoop, Flume, Solr, Zookeeper, AWS Big Data Services \\
+\textit{Responsibilities} : 
+     	 	\begin{list2}
+         \item[--] Was responsible for designing/maintaining data infrastructure to collect and store realtime/batched datasets from Goibibo servers for multiple use cases.
+	\item[--] Researched on many open source and AWS solutions and designed data infrastructure for Goibibo. 
+	\item[--] Implement data engineering use cases in big data platform.
+	\end{list2}
+
+Dynamic Discounting				 \hfill \textit{November 2016 -- present} \\
+\textit{Summary} :  A micro-batched dynamic discounting engine for Goibibo Hotels Platform	 \\
+      \textit{Technologies} : Spark, Python/Scala, Redshift, Kafka \\
+      \textit{Responsibilities} : 
+
+\begin{list2}
+\item[--] Design end-to-end discounting engine for Goibibo right from the data collection to applying the discounts onto Goibibo API datastore.
+\item[--] Implement collectors to capture all data points happening around hotels product, data points were logged to Kafka in realtime and some were micro-batched to S3 store.
+\item[--] Spark/Redshift was used to clean, transform, apply revenue rules and machine learning techniques on collected data to get optimum discounts for all Hotels.
+\item[--] Design the reporting frameworks to monitor performance of rules/algorithms and a feedback loop to correct rules using metrics like conversions and net margins. 
+\item[--] Transform data and store for multiple use cases like reporting, production API's datastore and to power realtime feeds to customers as well as sellers.
+\end{list2}
+	
+Fare Alerts				 \hfill  \textit{September 2015 -- Dec 2016} \\ 
+\textit{Summary} : Notification system to alert users for changes in Airline fares. \\
+      \textit{Technologies} : Python, Kafka, Cassandra\\
+      \textit{Responsibilities} : 
+%Design and implement data mining techniques in Python and R to gain market triggers from social media and news/rss feeds. 
+     	 	\begin{list2}
+\item[--] Implemented a system to listen to terabytes of the Airline Fare changes happening in a day and to take actions like user notifications, cache updation etc.
+\item[--] Scale the system to cope up with the data velocity and size.
+
+\end{list2}
 
     \textbf{EY LLP } 				\hfill  Trivandrum, Kerala \\
-      \textit{Position: Associate } 			\hfill \textit{June 2014 -- present}
+      \textit{Position: Big Data Associate } 			\hfill \textit{June 2014 -- September 2015}
   
 
 Data Harvester				 				\hfill \textit{Jan 2015 -- present} \\ 
@@ -86,10 +119,9 @@ Data Harvester				 				\hfill \textit{Jan 2015 -- present} \\
       \textit{Technologies} : Apache Spark, Python/Java, MongoDB\\
 \textit{Responsibilities} : 
      	 	\begin{list2}
-\item[--]Implement Apache Spark application to process real-time stream of financial filings harnessing 
+\item[--]Implement Apache Spark application to process real-time stream of financial filings(SEC) harnessing 
  in-memory processing capabilities of Apache Spark on Hadoop/YARN.
-	\item[--] Setting up Linux cluster to run Apache Spark on Hadoop-YARN environment.% and mongodb server for caching the results.
-	\item[--] Implement prediction models for forecasting financials using harvested data.
+	%\item[--] Setting up Linux cluster to run Apache Spark on Hadoop-YARN environment.% and mongodb server for caching the results.
 	\end{list2}
 
     Indoor Positioning system				 \hfill \textit{March 2015 -- present} \\
@@ -99,8 +131,7 @@ Data Harvester				 				\hfill \textit{Jan 2015 -- present} \\
 %Design and implement data mining techniques in Python and R to gain market triggers from social media and news/rss feeds. 
      	 	\begin{list2}
 \item[--] Mentor interns to create a network of raspberry pi and train them on python.
-\item[--] Implement a python client to capture all wifi data packets using kismet and push them to database. 
-\item[--] Use machine learning methods to create a model which can position devices correctly using wifi signal fingerprints collected as training data.
+\item[--] Implement a python client to capture all wifi data packets using kismet and push them to database and a algorithm which can position devices correctly using wifi signal fingerprints collected as training data.
 	\end{list2}
 	
     Market Trigger				 \hfill  \textit{June 2014 -- Dec 2014} \\ 
@@ -110,8 +141,7 @@ Data Harvester				 				\hfill \textit{Jan 2015 -- present} \\
 %Design and implement data mining techniques in Python and R to gain market triggers from social media and news/rss feeds. 
      	 	\begin{list2}
 \item[--] Design and implement data mining techniques in Python and R to gain market triggers from
-social media and news/rss feeds.	
-	\item[--] Setting up Linux server environment in cloud to serve realtime push notifications.
+social media and news/rss feeds.
 	\end{list2}
 
 	 
@@ -134,7 +164,7 @@ social media and news/rss feeds.
       \textit{Supervisor: Dr. Vineeth Paleri } 			\hfill \textit{December 2012 -- January 2014}\\
       \textit{Technologies: Eucalyptus Cloud, Rocks Cluster, Shell Scripting, Linux Networking}\\
     Setting up a scalable private cloud in the campus using open source tools like Eucalyptus and Rocks,
-capable of high performance computing and virtualization.  A cloud alternative for Computer Science
+capable of high performance computing and virtualisation.  A cloud alternative for Computer Science
 programming laboratory and provides IaaS for student community in campus.
 	\vspace{2mm}%
 %
@@ -176,20 +206,20 @@ programming laboratory and provides IaaS for student community in campus.
 
     %__________________________________________________________________________________________________________________
     %  Workshops Attended
-    \section{\mysidestyle Sessions Attended} 
-	FOSS.in \hfill \textit{Bangalore, November 2012}  \\%   
-    Yahoo Open Hack India \hfill \textit{Bangalore, June 2012}    \\
-    Cloud \& Linux by IBM \hfill \textit{NIT Calicut, April 2013}    \\
+%    \section{\mysidestyle Sessions Attended} 
+%	FOSS.in \hfill \textit{Bangalore, November 2012}  \\%   
+  %  Yahoo Open Hack India \hfill \textit{Bangalore, June 2012}    \\
+   % Cloud \& Linux by IBM \hfill \textit{NIT Calicut, April 2013}    \\
 
             
 
 
     %__________________________________________________________________________________________________________________
     %  Talks Given
-    \section{\mysidestyle Sessions Taken} 
-	Data mining and R programming \hfill \textit{EY LLP Trivandrum, March 2015}    \\
-	Introduction to Shell Scripting \hfill \textit{NIT Calicut, January 2014}    \\    	
-	Introduction to GNU/Linux \hfill \textit{NIT Calicut, February 2013}    \\
+%    \section{\mysidestyle Sessions Taken} 
+%	Data mining and R programming \hfill \textit{EY LLP Trivandrum, March 2015}    \\
+%	Introduction to Shell Scripting \hfill \textit{NIT Calicut, January 2014}    \\    	
+%	Introduction to GNU/Linux \hfill \textit{NIT Calicut, February 2013}    \\
 		    			
 
     %__________________________________________________________________________________________________________________
@@ -198,11 +228,18 @@ programming laboratory and provides IaaS for student community in campus.
 	\begin{list2}
 	\item[--] Organizer \& Web Developer at TEDxNITCalicut.
 	\item[--] HPC Cluster Administrator at Biocomputing Research Laboratory, NIT Calicut
-	\item[--] Evangelist and server admin at FOSSCell NIT Calicut.	
-	\item[--] Member of core team FOSSMeet 2011-2014.
+	\item[--] Evangelist,  member of core team FOSSMeet and server admin at FOSSCell(NIT Calicut Open-source community).
 	
 	
 	\end{list2}
+	 %__________________________________________________________________________________________________________________
+    %  Talks Given
+    \section{\mysidestyle Awards} 
+         Best Debutant for Goibibo, 2016  \\
+	Super Achiever for Go-MMT, 2017   
+%	Introduction to GNU/Linux \hfill \textit{NIT Calicut, February 2013}    \\
+
+	
 %
 %    %__________________________________________________________________________________________________________________
 %    % Computer Skills
